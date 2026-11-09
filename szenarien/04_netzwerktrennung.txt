@@ -1,0 +1,10 @@
+# Szenario 4: Netzwerktrennung. Bei Bully entstehen zwei Chefs.
+init 5 bully
+start 1
+partition 1,2,3 | 4,5
+start 1
+status
+stats
+heal
+start 1
+stats

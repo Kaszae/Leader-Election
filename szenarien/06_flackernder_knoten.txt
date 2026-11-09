@@ -1,0 +1,10 @@
+# Szenario 6: Knoten 5 stürzt immer wieder ab und kommt zurück.
+# Bei Bully reißt er jedes Mal die Führung wieder an sich.
+init 5 bully
+detect on
+start 1
+kill 5
+revive 5
+kill 5
+revive 5
+stats

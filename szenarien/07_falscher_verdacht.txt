@@ -1,0 +1,9 @@
+# Szenario 7: Falscher Verdacht. Die Chefs sind nur langsam, nicht tot.
+init 5 bully
+start 1
+# Knoten 3 erreicht 4 und 5 nur sehr langsam, der Timeout (300 ms) ist kürzer
+delay 3 4 800
+delay 3 5 800
+start 3
+status
+stats

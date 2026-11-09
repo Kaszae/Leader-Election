@@ -1,0 +1,7 @@
+# Szenario 1: Der Chef fällt einfach aus
+init 5 bully
+start 1
+kill 5
+start 2
+status
+stats

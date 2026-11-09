@@ -1,0 +1,7 @@
+# Szenario 1 mit dem Ring: gleicher Ablauf, andere Kosten
+init 5 ring
+start 1
+kill 5
+start 2
+status
+stats
